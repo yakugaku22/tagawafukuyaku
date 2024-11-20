@@ -15,9 +15,11 @@ body {
 header {
     background-color: #8B5E3B;
     color: white;
-    padding: 20px 40px; /* 縦に余白、横に余白を設定 */
-    text-align: center;
-    font-size: 2rem; /* フォントサイズ */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
 }
 
 /* スマホ向けのレスポンシブ調整 */
