@@ -20,6 +20,14 @@ header {
     font-size: 2rem; /* フォントサイズ */
 }
 
+/* スマホ向けのレスポンシブ調整 */
+@media (max-width: 768px) {
+    header {
+        padding: 10px 20px; /* 縦の余白を減らす */
+        font-size: 1.5rem; /* フォントサイズを小さく */
+    }
+}
+
 /* メインコンテンツが空白を埋める */
 main {
     flex: 1; /* フッターをページの下に押し下げる */
@@ -150,12 +158,4 @@ nav button {
 
 nav button:hover {
     background-color: #f1f1f1;
-}
-
-/* スマホ向けのレスポンシブ調整 */
-@media (max-width: 768px) {
-    header {
-        padding: 10px 20px; /* 縦の余白を減らす */
-        font-size: 1.5rem; /* フォントサイズを小さく */
-    }
 }
