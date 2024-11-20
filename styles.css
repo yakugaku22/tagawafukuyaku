@@ -1,0 +1,155 @@
+/* 全体レイアウト */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* ページ全体の高さをビュー全体に固定 */
+    background-color: rgba(255, 255, 255, 0.9); /* 白背景に透明度を設定 */
+    backdrop-filter: blur(5px); /* ぼかし効果を重ねる */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #8B5E3B;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+/* メインコンテンツが空白を埋める */
+main {
+    flex: 1; /* フッターをページの下に押し下げる */
+    padding: 2rem;
+}
+
+
+/* 見出しのアニメーション */
+main h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+    animation: fadeIn 1.5s ease-out, slideUp 1.5s ease-out;
+    margin-bottom:1rem;
+}
+
+/* 段落のアニメーション */
+main p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    animation: fadeIn 1.5s ease-out, slideUp 1.5s ease-out;
+    color: white;
+}
+
+/* フェードインアニメーション */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* 浮かび上がるアニメーション */
+@keyframes slideUp {
+    from {
+        transform: translateY(20px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+
+h1 {
+    margin: 0;
+}
+
+footer {
+    background-color: #8B5E3B;
+    color: white;
+    text-align: center;
+    padding: 0.5rem 0;
+    position: relative;
+    width: 100%;
+}
+
+/* 背景画像をぼかす設定 */
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('tagawa.jpg'); /* ここに好きな写真のパスを指定 */
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px); /* ぼかし効果 */
+    z-index: -1; /* 背景として配置 */
+}
+
+/* ハンバーガーメニュー */
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.menu-icon span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+/* メニュー */
+nav {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #8B5E3B;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    z-index: 10;
+}
+
+nav.hidden {
+    display: none;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    border-bottom: 1px solid #ddd;
+}
+
+nav li:last-child {
+    border-bottom: none;
+}
+
+nav button {
+    width: 100%;
+    padding: 1rem;
+    text-align: left;
+    border: none;
+    background-color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #8B5E3B;
+}
+
+nav button:hover {
+    background-color: #f1f1f1;
+}
