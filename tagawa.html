@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>田川×ふくやくプロジェクト</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="tagawafukuyaku.svg" type="svg+xml">
+    <link rel="icon alternate" href="tagawafukuyaku.png" type="png">
+</head>
+<body>
+    <!-- 背景画像のぼかし用 -->
+    <div class="background"></div>
+
+    <header>
+        <h1>田川×ふくやくプロジェクト</h1>
+        <!-- ハンバーガーメニューボタン -->
+        <div class="menu-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <!-- メニュー -->
+        <nav id="menu" class="hidden">
+            <ul>
+                <li><button data-page="home">About us</button></li>
+                <li><button data-page="report1">初めての活動報告</button></li>
+                <li><button data-page="event">イベント開催！</button></li>
+                <li><button data-page="tourism">地域の魅力</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="content">
+            <h2>About us</h2>
+            <p>私たちは福岡大学薬学部の3年生です</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 田川×ふくやくプロジェクト</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
