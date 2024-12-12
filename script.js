@@ -22,7 +22,7 @@ const pages = {
     },
     center:{
         title:"保健センター/急患センター",
-        content: "<p>保健センターでの活動を紹介</p>"
+        content: "<p>保健センターでの活動を紹介</p>",
     },
 };
 
