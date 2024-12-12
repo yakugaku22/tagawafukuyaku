@@ -6,15 +6,15 @@ const pages = {
     },
     aoba: {
         title: "あおば薬局",
-        content: "<p>9月5日(木),6日(金)の2日間にわたって、</p>",
+        content: "<p>あおば薬局での活動</p>",
     },
     koei: {
         title: "ドラッグコーエイ",
-        content: "<p>イベントの詳細はこちらです。ぜひご参加ください！</p>",
+        content: "<p>ドラッグコーエイでの活動</p>",
     },
     hospital: {
         title: "田川市立病院",
-        content: "<p>田川市の観光スポットをご紹介します。ぜひ訪れてみてください！</p>",
+        content: "<p>田川市立病院での活動</p>",
     },
     yakusindo:{
         title:"薬心堂",
