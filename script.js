@@ -1,31 +1,3 @@
-// ページデータを管理
-const pages = {
-    main: {
-        title: "About us",
-        content: "<p>私たちは福岡大学薬学部の3年生です。昨年度から課題解決型プロジェクト「ふくやくプロジェクト」を行っており、その活動の一環で、田川市の地域医療の特性や過疎問題について調査し、田川市の活性化にむけて何ができるかを考え、活動しています。この手作りブログでは、私たちの日々の活動の様子をお届けしていきます♪</p>",
-    },
-    aoba: {
-        title: "あおば薬局",
-        content: "<p>あおば薬局での活動</p>",
-    },
-    koei: {
-        title: "ドラッグコーエイ",
-        content: "<p>ドラッグコーエイでの活動</p>",
-    },
-    hospital: {
-        title: "田川市立病院",
-        content: "<p>田川市立病院での活動</p>",
-    },
-    yakusindo:{
-        title:"薬心堂",
-        content: "<p>薬心堂での活動</p>",
-    },
-    center:{
-        title:"保健センター/急患センター",
-        content: "<p>保健センターでの活動を紹介</p>",
-    },
-};
-
 // ページ切り替え処理
 document.querySelectorAll("button[data-page]").forEach(button => {
     button.addEventListener("click", () => {
