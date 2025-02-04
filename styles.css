@@ -55,12 +55,17 @@ main p {
     color: white;
 }
 
+/* index用の写真　*/
+.image-container {
+    display: flex; /* 横並びにする */
+    justify-content: center; /* 画像を中央寄せ（必要なら調整） */
+    gap: 20px; /* 画像の間隔を少し開ける */
+}
+
 .index-image {
-    width: 50%; /* 画面の50%の幅にする（小さめ） */
-    max-width: 300px; /* 最大幅を300pxに制限 */
+    width: 40%; /* 画像の幅を40%にする（適宜調整） */
+    max-width: 250px; /* 最大250px */
     height: auto; /* 縦横比を維持 */
-    display: block;
-    margin: 20px auto; /* 中央揃え & 上下の余白 */
     border-radius: 10px; /* 角を少し丸める */
     animation: fadeIn 1.5s ease-out, slideUp 1.5s ease-out;
 }
