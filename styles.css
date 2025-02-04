@@ -77,14 +77,27 @@ main p {
         align-items: center; /* 画像を中央揃え */
     }
 
-    .main-image {
+    .index-image {
         width: 80%; /* スマホでは少し大きめに */
         max-width: 200px;
     }
 }
 
+/*　あおば薬局用写真 */
+.aoba-container {
+    display: flex; /* 横並びにする */
+    justify-content: center; /* 画像を中央寄せ（必要なら調整） */
+    gap: 20px; /* 画像の間隔を少し開ける */
+}
 
-
+.aoba-image{
+    width: 50%; /* 画像の幅を40%にする（適宜調整） */
+    max-width: 300px; /* 最大250px */
+    height: auto; /* 縦横比を維持 */
+    border-radius: 10px; /* 角を少し丸める */
+    animation: fadeIn 1.5s ease-out, slideUp 1.5s ease-out;
+}
+    
 /* フェードインアニメーション */
 @keyframes fadeIn {
     from {
