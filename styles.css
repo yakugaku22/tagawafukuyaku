@@ -142,6 +142,11 @@ main p {
     border-radius: 10px; /* 角を少し丸める */
     animation: fadeIn 1.5s ease-out, slideUp 1.5s ease-out;
 }
+.wavy-highlight {
+    text-decoration: underline wavy yellow; /* 波線の色を指定 */
+    text-decoration-thickness: 4px; /* 波線の太さ */
+    color: white; /* 文字の色 */
+}
 
 /* 保健センター用　*/
 .hoken-container {
