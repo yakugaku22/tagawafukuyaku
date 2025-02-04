@@ -287,7 +287,7 @@ footer {
     display: flex; /* 横並び */
     justify-content: space-between; /* 左右に配置 */
     align-items: center; /* 縦位置を中央揃え */
-    padding: 10px 20px; /* 余白 */
+    padding: o.5rem 0; /* 余白 */
     background-color: #8B5E3B; /* フッターの背景色（変更OK） */
     color: white; /* 文字色 */
     font-size: 14px; /* フッターの文字サイズ */
