@@ -1,7 +1,7 @@
 /* 全体レイアウト */
 body {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     min-height: 100vh; /* ページ全体の高さをビュー全体に固定 */
     background-color: rgba(255, 255, 255, 0.9); /* 白背景に透明度を設定 */
     backdrop-filter: blur(5px); /* ぼかし効果を重ねる */
@@ -60,7 +60,7 @@ main p {
     display: flex; /* 横並びにする */
     justify-content: center; /* 画像を中央寄せ（必要なら調整） */
     gap: 20px; /* 画像の間隔を少し開ける */
-    flex-wrap: wrap; /* 必要なら折り返しを許可 */
+    flex-direction: row; /* 必要なら折り返しを許可 */
 }
 
 .index-image {
