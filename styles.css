@@ -18,7 +18,7 @@ header {
     padding: 1rem;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    text-align: center;
     position: relative;
     font-size: 33px;
 }
