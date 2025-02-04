@@ -112,6 +112,30 @@ main p {
     }
 }
 
+/* 施設リンクリストのスタイル */
+.facility-links {
+    list-style-type: none; /* デフォルトの箇条書きを消す */
+    padding: 0;
+    margin-top: 20px; /* 画像との間隔を調整 */
+    text-align: center; /* リストを中央寄せ */
+}
+
+.facility-links li {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+.facility-links a {
+    color: #007BFF; /* リンクを青色に */
+    text-decoration: none; /* 下線を消す */
+    font-weight: bold;
+}
+
+.facility-links a:hover {
+    text-decoration: underline; /* ホバー時に下線を表示 */
+}
+
 /* フェードインアニメーション */
 @keyframes fadeIn {
     from {
