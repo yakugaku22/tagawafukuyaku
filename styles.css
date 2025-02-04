@@ -295,7 +295,7 @@ footer {
 
 footer p {
     margin: 0;  /* デフォルトの余白を消す */
-    text-align: left; /* 明示的に左寄せ */
+    text-align: center;
 }
 
 .footer-links {
