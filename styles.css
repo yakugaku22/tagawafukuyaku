@@ -157,9 +157,6 @@ main p {
     animation: fadeIn 1.5s ease-out, slideUp 1.5s ease-out;
 }
  
-    
-    
-    
 /* 画面幅600px以下の時だけ縦並びにする */
 @media (max-width: 600px) {
     .image-container {
