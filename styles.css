@@ -60,6 +60,7 @@ main p {
     display: flex; /* 横並びにする */
     justify-content: center; /* 画像を中央寄せ（必要なら調整） */
     gap: 20px; /* 画像の間隔を少し開ける */
+    flex-wrap: wrap; /* 必要なら折り返しを許可 */
 }
 
 .index-image {
@@ -69,6 +70,20 @@ main p {
     border-radius: 10px; /* 角を少し丸める */
     animation: fadeIn 1.5s ease-out, slideUp 1.5s ease-out;
 }
+
+/* 画面幅600px以下の時だけ縦並びにする */
+@media (max-width: 600px) {
+    .image-container {
+        flex-direction: column !important; /* スマホでは縦並び */
+        align-items: center; /* 画像を中央揃え */
+    }
+
+    .main-image {
+        width: 80%; /* スマホでは少し大きめに */
+        max-width: 200px;
+    }
+}
+
 
 
 /* フェードインアニメーション */
