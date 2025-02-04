@@ -55,6 +55,18 @@ main p {
     color: white;
 }
 
+.index-image {
+    width: 80%; /* 画面の80%の幅にする */
+    max-width: 600px; /* 最大600pxまで */
+    height: auto; /* 縦横比を維持 */
+    display: block;
+    margin: 20px auto; /* 中央揃え & 上下の余白 */
+    border-radius: 10px; /* 角を少し丸める（オシャレにするなら） */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 影をつけて浮かせる */
+    animation: fadeIn 1.5s ease-out, slideUp 1.5s ease-out;
+}
+
+
 /* フェードインアニメーション */
 @keyframes fadeIn {
     from {
