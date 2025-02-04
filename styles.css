@@ -129,7 +129,38 @@ main p {
     animation: fadeIn 1.5s ease-out, slideUp 1.5s ease-out;
 }
 
-/* 画面幅600px以下の時だけ縦並びにする aoba用*/
+/* 急患センター用　*/
+.kyukan-container {
+    display: flex; /* 横並びにする */
+    justify-content: center; /* 画像を中央寄せ（必要なら調整） */
+    gap: 20px; /* 画像の間隔を少し開ける */
+}    
+.kyukan-image {
+    width: 50%; /* 画像の幅を40%にする（適宜調整） */
+    max-width: 300px; /* 最大250px */
+    height: auto; /* 縦横比を維持 */
+    border-radius: 10px; /* 角を少し丸める */
+    animation: fadeIn 1.5s ease-out, slideUp 1.5s ease-out;
+}
+
+/* 保健センター用　*/
+.hoken-container {
+    display: flex; /* 横並びにする */
+    justify-content: center; /* 画像を中央寄せ（必要なら調整） */
+    gap: 20px; /* 画像の間隔を少し開ける */
+}    
+.hoken-image {
+    width: 50%; /* 画像の幅を40%にする（適宜調整） */
+    max-width: 300px; /* 最大250px */
+    height: auto; /* 縦横比を維持 */
+    border-radius: 10px; /* 角を少し丸める */
+    animation: fadeIn 1.5s ease-out, slideUp 1.5s ease-out;
+}
+ 
+    
+    
+    
+/* 画面幅600px以下の時だけ縦並びにする */
 @media (max-width: 600px) {
     .image-container {
         flex-direction: column !important; /* スマホでは縦並び */
@@ -169,6 +200,22 @@ main p {
       align-items: center; /* 画像を中央揃え */
     }
     .yakushindo-image {
+      width: 80%; /* スマホでは少し大きめに */
+      max-width: 200px 
+    }
+    .kyukan-container {
+      flex-direction: column !important; /* スマホでは縦並び */
+      align-items: center; /* 画像を中央揃え */
+    }  
+    .kyukan-image {
+      width: 80%; /* スマホでは少し大きめに */
+      max-width: 200px 
+    }
+    .hoken-container {
+      flex-direction: column !important; /* スマホでは縦並び */
+      align-items: center; /* 画像を中央揃え */
+    }  
+    .hoken-image {
       width: 80%; /* スマホでは少し大きめに */
       max-width: 200px 
     }
