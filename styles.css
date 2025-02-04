@@ -49,7 +49,7 @@ main h2 {
 main h3 {
     font-size: 2.5rem;
     text-align: left;
-    color: white;
+    color: #FF0000;
     animation: fadeIn 1.5s east-out, slideUp 1.5s ease-out;
     margin-bottom:1rem;
 }
