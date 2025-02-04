@@ -60,7 +60,6 @@ main p {
     display: flex; /* 横並びにする */
     justify-content: center; /* 画像を中央寄せ（必要なら調整） */
     gap: 20px; /* 画像の間隔を少し開ける */
-    flex-direction: row; /* 必要なら折り返しを許可 */
 }
 
 .index-image {
