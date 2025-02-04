@@ -20,20 +20,20 @@ header {
     justify-content: space-between;
     text-align: center;
     position: relative;
-    font-size: 33px;
+    font-size: 12px;
 }
 
 /* スマホ向けのレスポンシブ調整 */
 @media (max-width: 768px) {
 header {
     padding: 10px 20px; /* 縦の余白を減らす */
-    font-size: 24px; /* フォントサイズを小さく */
+    font-size: 12px; /* フォントサイズを小さく */
     }
 }
 /* 画面幅が480px以下のとき（より小さいスマホ向け） */
 @media screen and (max-width: 480px) {
 header {
-    font-size: 20px; /* さらに小さくして調整 */
+    font-size: 10px; /* さらに小さくして調整 */
     }
 }
 
