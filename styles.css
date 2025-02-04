@@ -276,29 +276,35 @@ main h3 {
 h1 {
     margin: 0;
 }
-
+   
 footer {
-    background-color: #8B5E3B;
-    color: white;
-    text-align: center;
-    padding: 0.5rem 0;
-    position: relative;
-    width: 100%;
+    display: flex; /* 横並び */
+    justify-content: space-between; /* 左右に配置 */
+    align-items: center; /* 縦位置を中央揃え */
+    padding: 10px 20px; /* 余白 */
+    background-color: #333; /* フッターの背景色（変更OK） */
+    color: white; /* 文字色 */
+    font-size: 14px; /* フッターの文字サイズ */
 }
+
+footer p {
+    margin: 0;  /* デフォルトの余白を消す */
+    text-align: left; /* 明示的に左寄せ */
+}
+
 .footer-links {
-    font-size: 12px;
-    text-align: center;
-    margin-top: 5px;
+    font-size: 12px; /* 小さめの文字 */
+    display: flex; /* 横並び */
 }
 
 .footer-links a {
     color: white;
     text-decoration: none;
-    margin: 0 10px;
+    margin-left: 10px; /* 各リンクの間隔 */
 }
 
 .footer-links a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* ホバー時に下線 */
 }
 
 
