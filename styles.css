@@ -78,8 +78,8 @@ main p {
 }
 
 .aoba-image {
-    width: 50%; /* 画像の幅を40%にする（適宜調整） */
-    max-width: 300px; /* 最大250px */
+    width: 70%; /* 画像の幅を40%にする（適宜調整） */
+    max-width: 400px; /* 最大250px */
     height: auto; /* 縦横比を維持 */
     border-radius: 10px; /* 角を少し丸める */
     animation: fadeIn 1.5s ease-out, slideUp 1.5s ease-out;
@@ -93,8 +93,8 @@ main p {
 }
 
 .koei-image {
-    width: 50%; /* 画像の幅を40%にする（適宜調整） */
-    max-width: 300px; /* 最大250px */
+    width: 70%; /* 画像の幅を40%にする（適宜調整） */
+    max-width: 400px; /* 最大250px */
     height: auto; /* 縦横比を維持 */
     border-radius: 10px; /* 角を少し丸める */
     animation: fadeIn 1.5s ease-out, slideUp 1.5s ease-out;
@@ -108,8 +108,8 @@ main p {
 }
 
 .hospital-image {
-    width: 50%; /* 画像の幅を40%にする（適宜調整） */
-    max-width: 300px; /* 最大250px */
+    width: 70%; /* 画像の幅を40%にする（適宜調整） */
+    max-width: 400px; /* 最大250px */
     height: auto; /* 縦横比を維持 */
     border-radius: 10px; /* 角を少し丸める */
     animation: fadeIn 1.5s ease-out, slideUp 1.5s ease-out;
@@ -122,8 +122,8 @@ main p {
     gap: 20px; /* 画像の間隔を少し開ける */
 }    
 .yakushindo-image {
-    width: 50%; /* 画像の幅を40%にする（適宜調整） */
-    max-width: 300px; /* 最大250px */
+    width: 70%; /* 画像の幅を40%にする（適宜調整） */
+    max-width: 400px; /* 最大250px */
     height: auto; /* 縦横比を維持 */
     border-radius: 10px; /* 角を少し丸める */
     animation: fadeIn 1.5s ease-out, slideUp 1.5s ease-out;
@@ -136,8 +136,8 @@ main p {
     gap: 20px; /* 画像の間隔を少し開ける */
 }    
 .kyukan-image {
-    width: 50%; /* 画像の幅を40%にする（適宜調整） */
-    max-width: 300px; /* 最大250px */
+    width: 70%; /* 画像の幅を40%にする（適宜調整） */
+    max-width: 400px; /* 最大250px */
     height: auto; /* 縦横比を維持 */
     border-radius: 10px; /* 角を少し丸める */
     animation: fadeIn 1.5s ease-out, slideUp 1.5s ease-out;
@@ -150,8 +150,8 @@ main p {
     gap: 20px; /* 画像の間隔を少し開ける */
 }    
 .hoken-image {
-    width: 50%; /* 画像の幅を40%にする（適宜調整） */
-    max-width: 300px; /* 最大250px */
+    width: 70%; /* 画像の幅を40%にする（適宜調整） */
+    max-width: 400px; /* 最大250px */
     height: auto; /* 縦横比を維持 */
     border-radius: 10px; /* 角を少し丸める */
     animation: fadeIn 1.5s ease-out, slideUp 1.5s ease-out;
@@ -165,7 +165,7 @@ main p {
     }
     .index-image {
         width: 80%; /* スマホでは少し大きめに */
-        max-width: 200px;
+        max-width: 400px;
     }
     .aoba-container {
         flex-direction: column !important; /* スマホでは縦並び */
@@ -174,7 +174,7 @@ main p {
 
     .aoba-image {
         width: 80%; /* スマホでは少し大きめに */
-        max-width: 200px;
+        max-width: 400px;
     }
     .koei-container {
          flex-direction: column !important; /* スマホでは縦並び */
@@ -182,7 +182,7 @@ main p {
     }
     .koei-image {
         width: 80%; /* スマホでは少し大きめに */
-        max-width: 200px;
+        max-width: 400px;
     }    
     .hospital-container {
       flex-direction: column !important; /* スマホでは縦並び */
@@ -190,7 +190,7 @@ main p {
     }  
     .hospital-image {
       width: 80%; /* スマホでは少し大きめに */
-      max-width: 200px;
+      max-width: 400px;
     }
     .yakushindo-container {
       flex-direction: column !important; /* スマホでは縦並び */
@@ -198,7 +198,7 @@ main p {
     }
     .yakushindo-image {
       width: 80%; /* スマホでは少し大きめに */
-      max-width: 200px 
+      max-width: 400px 
     }
     .kyukan-container {
       flex-direction: column !important; /* スマホでは縦並び */
@@ -206,7 +206,7 @@ main p {
     }  
     .kyukan-image {
       width: 80%; /* スマホでは少し大きめに */
-      max-width: 200px 
+      max-width: 400px 
     }
     .hoken-container {
       flex-direction: column !important; /* スマホでは縦並び */
@@ -214,7 +214,7 @@ main p {
     }  
     .hoken-image {
       width: 80%; /* スマホでは少し大きめに */
-      max-width: 200px 
+      max-width: 400px 
     }
 }
 
