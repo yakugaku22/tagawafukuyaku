@@ -285,6 +285,22 @@ footer {
     position: relative;
     width: 100%;
 }
+.footer-links {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
 
 /* 背景画像をぼかす設定 */
 .background {
