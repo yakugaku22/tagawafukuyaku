@@ -56,13 +56,12 @@ main p {
 }
 
 .index-image {
-    width: 80%; /* 画面の80%の幅にする */
-    max-width: 600px; /* 最大600pxまで */
+    width: 50%; /* 画面の50%の幅にする（小さめ） */
+    max-width: 300px; /* 最大幅を300pxに制限 */
     height: auto; /* 縦横比を維持 */
     display: block;
     margin: 20px auto; /* 中央揃え & 上下の余白 */
-    border-radius: 10px; /* 角を少し丸める（オシャレにするなら） */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 影をつけて浮かせる */
+    border-radius: 10px; /* 角を少し丸める */
     animation: fadeIn 1.5s ease-out, slideUp 1.5s ease-out;
 }
 
