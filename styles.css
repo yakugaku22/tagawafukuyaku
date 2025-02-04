@@ -26,7 +26,7 @@ header {
 /* スマホ向けのレスポンシブ調整 */
 @media (max-width: 768px) {
 header {
-    padding: 10px 20px; /* 縦の余白を減らす */
+    padding: 20px 10px; /* 縦の余白を減らす */
     font-size: 12px; /* フォントサイズを小さく */
     }
 }
