@@ -282,51 +282,7 @@ main h3 {
 h1 {
     margin: 0;
 }
-
-/* ---------------------------
-   プロジェクトメンバー紹介セクション
-   --------------------------- */
-.team {
-  margin: 40px auto;
-  padding: 20px;
-  max-width: 800px;  /* 必要に応じて調整 */
-}
-
-.team h3 {
-  text-align: center;
-  margin-bottom: 30px;
-  font-size: 2rem;
-  color: white;  /* 白背景に対して見やすいダークカラー */
-}
-
-.member {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-/* 顔写真を丸く表示 */
-.member-photo {
-  width: 70%; /* 画像の幅を40%にする（適宜調整） */
-  max-width: 400px; /* 最大250px */
-  height: auto; /* 縦横比を維持 */
-  border-radius: 10px; /* 角を少し丸める */
-  animation: fadeIn 1.5s ease-out, slideUp 1.5s ease-out;
-}
-
-.member-info {
-  list-style: none; /* 箇条書きのマーカーを消す */
-  margin: 0;
-  padding: 0;
-}
-
-.member-info li {
-  margin-bottom: 4px;
-  font-size: 14px;
-  color: #333;
-}
-
-   
+ 
 footer {
     display: flex; /* 横並び */
     justify-content: space-between; /* 左右に配置 */
