@@ -308,11 +308,11 @@ h1 {
 
 /* 顔写真を丸く表示 */
 .member-photo {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;  /* これで画像が丸くなる */
-  object-fit: cover;
-  margin-right: 20px;
+  width: 70%; /* 画像の幅を40%にする（適宜調整） */
+  max-width: 400px; /* 最大250px */
+  height: auto; /* 縦横比を維持 */
+  border-radius: 10px; /* 角を少し丸める */
+  animation: fadeIn 1.5s ease-out, slideUp 1.5s ease-out;
 }
 
 .member-info {
